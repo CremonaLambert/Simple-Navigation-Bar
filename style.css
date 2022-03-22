@@ -24,5 +24,11 @@ body {
     text-decoration: none;
     color: #fafafa;
     padding-left: 20px;
+    display: block;
+    transition: all 0.3s ease-out;
 }
 
+.pages a:hover {
+    color: #81d4fa;
+    transform: rotate(2deg);
+}
