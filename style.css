@@ -13,6 +13,23 @@ body {
 
 }
 
+.profile-container {
+    border: 3px solid #b20101;
+}
+
+.innerprofile-container {
+    border: 3px solid blue;
+    display: flex;
+}
+
+.shape {
+    border: 2px solid rgb(19, 72, 1);
+}
+
+.innershape {
+
+}
+
 .pages {
     list-style: none;
     margin: 0;
