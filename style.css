@@ -12,7 +12,7 @@ body {
     align-items: center;
 
 }
-
+/* 
 .profile-container {
     border: 3px solid #b20101;
 }
@@ -20,15 +20,71 @@ body {
 .innerprofile-container {
     border: 3px solid blue;
     display: flex;
-}
+} */
 
-.shape {
+/* .shape {
     border: 2px solid rgb(19, 72, 1);
 }
 
 .innershape {
 
+} */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 20,
+  'wght' 900,
+  'GRAD' 0,
+  'opsz' 48
 }
+
+.container {
+    border: 3px solid green;
+    /* display: flex; */
+    background-color: #212121;
+}
+
+.box {
+    border: 3px solid red;
+    width: 800px;
+    height: 609px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.login-form {
+    border: 3px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+.buttons {
+    border: 3px solid blue;
+    display: flex;
+    justify-content: space-between;
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+}
+
+
+input{
+    color: grey;
+    background-color: #eee;
+
+}
+
+h2 {
+
+}
+
+
+
 
 .pages {
     list-style: none;
