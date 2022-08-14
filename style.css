@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    background-color: #151515;
 }
 
 .bar {
@@ -46,21 +47,21 @@ body {
 }
 
 .container {
-    border: 3px solid green;
     /* display: flex; */
     background-color: #212121;
 }
 
 .box {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     width: 700px;
     height: 550px;
-    margin: 0 auto;
+    margin: 30px auto;
     color: #ffffff;
     /* display: flex;
     flex-direction: column; */
     /* text-align: center; */
-    border-color: rgb(77, 37, 15) rgb(100, 172, 49);
+    /* border-color: rgb(77, 37, 15) rgb(100, 172, 49); */
+    /* background-color: #151515; */
 }
 form {
     text-align: center;
@@ -74,12 +75,9 @@ img {
     border-radius: 100%;
 }
 
-#so-madia {
-    width: 50px;
-    border-radius: 100%;
-}
+
 .login-form {
-    border: 3px solid blueviolet;
+    /* border: 3px solid blueviolet; */
     /* background-color: #180909; */
     display: flex;
     flex-direction: column;
@@ -90,8 +88,11 @@ img {
     border-top-right-radius: 100%; */
 }
 .login {
-    background-color: rgb(6, 165, 186);
+    background-color: #212121;
     color: #fff;
+    margin: 0 150px;
+    /* outline: #ffffff; */
+    border: 2px solid #fff;
 }
 .buttons {
     /* border: 3px solid rgb(23, 2, 52); */
@@ -99,11 +100,10 @@ img {
     justify-content: space-between;
     max-width: 480px;
     margin: 0 auto;
-    margin: ;
 }
 
 input{
-    color: grey;
+    color: #000a12;
     /* background-color: #eee; */
     padding: 12px 5px;
     margin: 10px 0;
@@ -117,6 +117,8 @@ input{
 
 #btn-underline:hover{
     text-decoration: underline;
+    text-underline-offset: 8px;
+    text-emphasis-color: red;
 }
 
 
@@ -142,10 +144,19 @@ input{
 }
 
 footer {
-   background-color: #212121;
+   background-color: #000a12;
     color: #fff;
 }
 .innerfooter {
-    border: 3px solid brown;
+    /* border: 3px solid brown; */
     height: 100px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.login:hover {
+    background-color: #000a12;
+    color: #ffffff;
 }
