@@ -28,4 +28,20 @@ body {
 .innerboxright {
     border: 2px solid red;
     width: 800px;
+    display: flex;
+}
+.btsright {
+    border: 2px solid rgb(4, 186, 19);
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    /* justify-items: center; */
+    /* align-items: center; */
+}
+
+.facebook, .gmail {
+    padding: 8px;
+    width: 300px;
+    margin: 8px 0;
+
 }
