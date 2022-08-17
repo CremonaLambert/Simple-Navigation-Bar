@@ -16,7 +16,9 @@ body {
 }
 
 .box {
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 4px 0px #212121;
+    border-radius: 5px;
     /* margin: 50px; */
     display: flex;
     width: 990px;
@@ -26,7 +28,7 @@ body {
 }
 
 .innerboxleft {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     max-width: 900px;
     max-height: 400px;
     margin: auto auto;
@@ -34,8 +36,9 @@ body {
 }
 
 .innerboxright {
-    border: 2px solid red;
-    border-left: 2px solid black;
+    /* border: 2px solid red; */
+    border-left: 1px solid #212121;
+    /* box-shadow: 0px 1px #212121; */
     /* max-width: 400px; */
     height: 200px;
     display: flex;
@@ -45,7 +48,7 @@ body {
     
 }
 .btsright {
-    border: 2px solid rgb(4, 186, 19);
+    /* border: 2px solid rgb(4, 186, 19); */
     display: flex;
     flex-direction: column;
     font-size: 20px;
@@ -122,9 +125,21 @@ img {
     margin: 0 10px;
 }
 
-/* .facebook, .gmail {
-    border: 2px solid black;
-} */
+.facebook {
+    background-color: #3C5291;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #fff;
+} 
+.gmail {
+    background-color: rgb(239, 37, 6);
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #fff;
+} 
+
 
 
 
